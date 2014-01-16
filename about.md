@@ -10,10 +10,12 @@ group: navigation
 ![MrBackKom](http://mrbackkom.github.io/assets/themes/twitter/public/images/tx.jpg)
 > var MrBackKom = {
 >
+>         sex       : male,
 >         name      : "MrBackKom",
 >         location  : "帝都"
->         job       : "BaiduFEer",
+>         job       : "Baidu VS FEer",
 >         skill     : ["Javascript","C#","Python","HTML5","CSS"],
+>         Interest  : ["BacketBall","Symphony","Movies","Food","Beauty"],
 >         weibo     : http://weibo.com/mrbackkom,
 >         Instagram : mr_backkom
 >}
