@@ -13,7 +13,7 @@ group: navigation
     var MrBackKom = {
          name      : "MrBackKom",
          location  : "帝都"
-         job       : "Baidu VS FEer",
+         job       : "Baidu FE",
          skill     : [
                         "Javascript",
                         "C#",
