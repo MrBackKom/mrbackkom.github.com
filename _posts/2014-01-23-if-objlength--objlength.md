@@ -5,7 +5,7 @@ description: "163博客文章迁移"
 category: JS框架源码分析
 tags: [Underscorejs源码分析,博客迁移]
 ---
-{% include JB/setup %}
+
 
 　　　underscore.js 用来操作数组数据十分的方便，今天在阅读underscore.js源码的时候发现了一个判断语句，一时没看懂是什么意思，后来仔细分析了一下，也到网上查阅相关的资料。
 　　　

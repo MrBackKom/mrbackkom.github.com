@@ -6,7 +6,7 @@ category: APP分享
 tags: [内容分享]
 ---
 
-{% include JB/setup %}
+
 ####介绍一款IOS上基于Google Analytics的免费APP<link href="http://mrbackkom.github.io/assets/themes/twitter/public/stylesheets/GoogleAnalyticsAPP.css" rel="stylesheet"></link>
 
 　　今年一月份的时候打算利用github page弄个静态博客，于是就利用业余时间弄了起来，搭建博客其中有一项必不可少的工作就是做博客的统计，目前比较国内比较流行的统计系统就是CNZZ和Google Analytics这两种。其实两种统计系统各有各的优点，于是我也就都用上了。
