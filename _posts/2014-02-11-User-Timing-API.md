@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "User Timing API 性能检测API"
+title: "用Timing API 来做性能检测"
 description: "Timing API是用来辅助分析分析页面耗时，和反应页面性能指标的新标准，对于优化web站点很有意义。"
 category: JS标准
 tags: [性能,User Timing API]
