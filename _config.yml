@@ -1,6 +1,6 @@
 # visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-paginate: 10 # pagination based on number of posts
+paginate: 8 # pagination based on number of posts
 paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 pygments: true
@@ -16,8 +16,8 @@ rss_path: feed.xml
 categories_path: categories.html
 tags_path: tags.html
 
-BASE_PATH: http://mrbackkom.github.io
-#BASE_PATH: http://localhost:4000
+#BASE_PATH: http://mrbackkom.github.io
+BASE_PATH: http://localhost:4000
 # All links will be namespaced by BASE_PATH if defined.
 # Links in your website should always be prefixed with {{ site.BASE_PATH }}
 # Do not put a "/" at the end of the url.
