@@ -30,5 +30,4 @@ tags: [mongodb]
 　　　MongoDB shell version: 2.0.6
 
 　　　connecting to: test
-
-　　　&rt;
+　　　
