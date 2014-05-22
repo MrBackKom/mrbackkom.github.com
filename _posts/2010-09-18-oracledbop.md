@@ -1,11 +1,12 @@
 ---
 layout: post
 title: "Oracle中创建表，创建序列，创建自增字段，添加注释， 添加记录，添加触发器，提交 "
-description: ""
+description: "Oracle中创建表，创建序列，创建自增字段，添加注释， 添加记录，添加触发器，提交"
 category:  Oracle
 tags: ["Oracle"]
 ---
 
+<pre class="prettycode lang-js linenum" >
 // 创建一个序列
 CREATE SEQUENCE Car_GUID increment by 1;
 // 创建一个表
@@ -32,3 +33,4 @@ for each row
 begin
  select CARGUIDSEQ.nextval into  :new.GUID from sys.dual;
 end;
+</pre>
