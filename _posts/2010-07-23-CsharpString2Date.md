@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "C#字符串和时间的相互转换"
-description: ""
+description: "C#字符串和时间的相互转换"
 category: C#
 tags: ["C#","字符串和时间的相互转换"]
 ---
