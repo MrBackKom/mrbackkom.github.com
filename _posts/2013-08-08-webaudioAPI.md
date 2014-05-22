@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "HTML5 Web Audio API 系列教程（1）   "
-description: ""
+description: "起初开发人员在后台播放音频采用的是&lg;bgsound&gt;标签，通过这种方式，通过这种方式，当用户访问某一个页面时，页面的开发者可以在后台播放背景音乐，从而提高用户体验。但这个标签当时仅有IE支持，其他的浏览器不支持也不采用，这种非标准的播放方式。后来NetScape 通过&lt;embed&gt;标签实现了相似的特性，实现了和bgsound几乎相同的功能。 Flash，是第一个可以跨浏览器来实现音频播放的技术实现方式，但他需要一个flash插件支持，也就是说如果你想用flash在浏览器中播放音频，就必须在你的浏览器中装一个flash插件。随着HTML5技术的发展，如今我们有了一种新的方式来实现音频功能"
 category: "HTML5新标准"
 tags: [html5,音频,Audio]
 ---
