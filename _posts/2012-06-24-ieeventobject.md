@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "IE 事件对象"
-description: ""
+description: "不同于DOM事件对象基于Event Handler授权这种方式,IE事件对象可以用不同的方式进行访问,当一个事件Handler通过DOM0 级的方式被授权，则这个事件对象将作为window对象的属性而存在，看下面的例子，"
 category: IE事件
 tags: ["IE事件"]
 ---
