@@ -3,7 +3,7 @@ layout: post
 title: "Oracle中创建表，创建序列，创建自增字段，添加注释， 添加记录，添加触发器，提交 "
 description: "Oracle中创建表，创建序列，创建自增字段，添加注释， 添加记录，添加触发器，提交"
 category:  Oracle
-tags: ["Oracle"]
+tags: ["Oracle","Oracle中创建表","Oracle创建序列"]
 ---
 
 <pre class="prettycode lang-js linenum" >
