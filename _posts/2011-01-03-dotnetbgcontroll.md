@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "BackgroundWorker组件"
-description: ""
+description: "在VS2005中添加了BackgroundWorker组件，该组件在多线程编程方面使用起来非常方便，然而在开始时由于没有搞清楚它的使用机制，走了不少的弯路，现在把我在使用它的过程中的经验与诸位分享一下"
 category:  .net控件相关
 tags: [" .net控件相关","BackgroundWorker组件"]
 ---
