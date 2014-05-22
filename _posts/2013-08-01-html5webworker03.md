@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "HHTML5 WebWorker教程(3) 专用web worker "
-description: ""
+description: "其实专用webworker这个词是我自己起的,因为我实在想不出用什么名字,暂且先称之为专用webworker.专用web worker是在后台能够让你的js运行.当你的web worker运行的时候,worker可以通过发送消息给事件处理程序实现跟web主页面进行通信即postmessage"
 category: "HTML5新标准"
 tags: [html5,WebWorker]
 ---
