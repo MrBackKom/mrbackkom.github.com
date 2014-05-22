@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "关于couldn't connect to server 127.0.0.1 shell/mongo.js:84 exception: connect failed 问题"
-description: ""
+description: "今天在启动mongodb的时候，突然间发现这个错误 couldn't connect to server 127.0.0.1 shell/mongo.js:84 exception: connect failed,觉得很奇怪,之前没有遇到过,在google还有百度上搜一下,发现也有很多人遇到这个问题。"
 category: mongodb常见错误
 tags: [mongodb]
 ---
