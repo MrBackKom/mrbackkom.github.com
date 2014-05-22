@@ -1,12 +1,15 @@
 ---
 layout: post
 title: "怎样把PDF文件在WinForm窗口中显示出来 "
-description: ""
+description: "怎样把PDF文件在WinForm窗口中显示出来"
 category:  .net控件相关
-tags: [" .net控件相关"]
+tags: [" .net控件相关","PDF","WinForm","WinForm显示pdf"]
 ---
 
+
 Steps to create the C# version
+
+<pre class="prettycode lang-js">
 1. Create a windows form application by using VS
 2. Make the Acrobat control available in the toolbox of VS
 Tools->Add/Remove Toolbox Items: turn on "Adobe Acrobat 7.0 Browser Document" in COM Components tab. You will see it in the Toolbox's General tab.
@@ -33,3 +36,4 @@ InitializeComponent();
 axAcroPDF1.LoadFile("mypdf.pdf");
 axAcroPDF1.Show();
 }
+</pre>
