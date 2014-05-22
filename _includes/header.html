@@ -2,8 +2,8 @@
 <meta charset="utf-8">
 <title>{{ page.title }}</title>
 {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
-<!-- <meta name="keywords" content="{{ page.title }}"> -->
-{% assign pagekeywords = "" %}
+
+{% assign pagekeywords = page.title %}
 {% unless page.categories == empty %}
   {% assign categories_list = page.categories %}
   {% for category in categories_list %} 
