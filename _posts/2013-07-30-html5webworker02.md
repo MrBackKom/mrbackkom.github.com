@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "HHTML5 WebWorker教程(2) 如何使用web worker "
-description: ""
+description: "首先当我们要使用某个并非被所有浏览器支持的标准时，我们应该对浏览器对该特性的支持程度做检测。web worker 是属于window对象的属性，我们可以通过这种方式来判断浏览器是否支持web worker"
 category: "HTML5新标准"
 tags: [html5,WebWorker]
 ---
