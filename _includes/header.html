@@ -2,7 +2,23 @@
 <meta charset="utf-8">
 <title>{{ page.title }}</title>
 {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
-<meta name="keywords" content="{{ page.title }}">
+<!-- <meta name="keywords" content="{{ page.title }}"> -->
+{% assign pagekeywords = "" %}
+{% unless page.categories == empty %}
+  {% assign categories_list = page.categories %}
+  {% for category in categories_list %} 
+      {% pagekeywords += category %}
+  {% endfor %}
+{% endunless %}
+
+{% unless page.tags == empty %}
+  {% assign tags_list = page.tags %}
+  {% for tag in tags_list %} 
+      {% pagekeywords += tag %}
+  {% endfor %}
+{% endunless %}
+<meta name="keywords" content="{{ pagekeywords }}">
+
 <meta name="author" content="{{ site.author.name }}">
 
 <!-- Enable responsive viewport -->
