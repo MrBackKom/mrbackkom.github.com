@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Oracle使用PL/SQL Developer工具导出DMP文件"
-description: ""
+description: "Oracle使用PL/SQL Developer工具导出DMP文件"
 category:  Oracle
 tags: ["Oracle"]
 ---
