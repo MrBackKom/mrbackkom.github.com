@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "fiddler无法抓取chrome解决方法(转载)"
-description: ""
+description: "前端开发中，不可避免的要和服务器端进行联调，少了fiddler这个利器可不行。由于无线开发需要配置UA，我使用chrome进行访问，但是今儿一早过来，发现fiddler无法抓取chrome的请求了。想想昨天对chrome进行的操作，我觉得问题应该出在代理的身上。"
 category:  开发工具
 tags: ["开发工具常见问题","fiddler"]
 ---
