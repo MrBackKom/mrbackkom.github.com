@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "HTML5 WebWorker教程(1) web worker简介 "
-description: ""
+description: "webworker是HTML5新标准中一个比较重要并且很高端的特性之一，但目前还没有收到太多的关注。这个特性提供相应的API允许你以一个独立的线程去运行你的javascript代码，并且这个线程不会阻塞你的web应用程序。这些javascript是在一个与主渲染程序或者你的其他用户界面上的javascript程序是平行关系，似乎可以看成是一种并行关系。这样，当我们在这个线程中执行比较“大型”的计算任务，我们的页面就不会出现未响应的现象."
 category: "HTML5新标准"
 tags: [html5,WebWorker]
 ---
