@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "HHTML5 WebWorker教程(4) 共享webworkers  "
-description: ""
+description: "共享web worker，允许多个web应用程序通过一个共享web worker进行切换。其中有一种使用共享webworker的方式是让共享webworker做多个web应用程序的中间层，介于服务器与应用程序间通信。可以创建多个web worker，通过共享web worker来查看同一个图片。代替了与服务器的直接通信，web app将会和共享buffer进行通信，这些数据都是缓存在本地的数据，当连线的时候将会和服务器进行通信"
 category: "HTML5新标准"
 tags: [html5,WebWorker]
 ---
