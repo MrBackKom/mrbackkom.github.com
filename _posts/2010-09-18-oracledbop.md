@@ -6,6 +6,8 @@ category:  Oracle
 tags: ["Oracle","Oracle中创建表","Oracle创建序列"]
 ---
 
+#
+
 <pre class="prettycode lang-js linenum" >
 // 创建一个序列
 CREATE SEQUENCE Car_GUID increment by 1;
@@ -33,4 +35,5 @@ for each row
 begin
  select CARGUIDSEQ.nextval into  :new.GUID from sys.dual;
 end;
+
 </pre>
