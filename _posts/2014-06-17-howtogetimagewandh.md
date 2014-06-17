@@ -25,6 +25,7 @@ alert('width:'+img.width+',height:'+img.height);
 </pre>
 
 结果如下
+
 ![实例图片](http://www.qttc.net/static/upload/2013/13656663064674.jpg)
 
 宽高都是0的这个结果很正常，因为图片的相关数据都没有被加载前它的宽高默认就是0
@@ -50,6 +51,7 @@ img.onload = function(){
 </pre>
 
 结果如下
+
 ![实例图片](http://www.qttc.net/static/upload/2013/13656665891562.jpg)
 
 通过onload就能获取到图片的宽高了。但onload大一点的图通常都比较慢，不实用，但只要图片被浏览器缓存，那么图片加载几乎就不用等待即可触发onload，我们要的是占位符。所以有些人通过缓存获取也可以这么写。
@@ -170,12 +172,15 @@ img.onload = function(){
 </pre>
 
 FireFox：
+
 ![示例图片](http://www.qttc.net/static/upload/2013/13656702096780.jpg)
 
 IE
+
 ![示例图片](http://www.qttc.net/static/upload/2013/13656703803279.jpg)
 
 Chrome
+
 ![实例图片](http://www.qttc.net/static/upload/2013/13656704211997.jpg)
 
 
