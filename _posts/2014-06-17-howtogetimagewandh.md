@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "JS快速获取图片宽高的方法(转)"
+title: "JS快速获取图片宽高的方法"
 description: "快速获取图片的宽高其实是为了预先做好排版样式布局做准备，通过快速获取图片宽高的方法比onload方法要节省很多时间，甚至一分钟以上都有可能，并且这种方法适用主流浏览器包括IE低版本浏览器。"
 category:  javacript
 tags: ["javacript","图片宽高"]

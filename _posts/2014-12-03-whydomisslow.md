@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "为什么操作DOM的性能比较低及浅谈virtual DOM"
+title: "为什么操作DOM的性能比较低及浅谈virtual DOM(未完......)"
 description: "因为对DOM的修改为影响网页的用户界面，重绘页面是一项昂贵的操作。太多的JavaScript DOM操作会导致一系列的重绘操作，为了确保执行结果的准确性，所有的修改操作是按顺序同步执行的。我们称这个过程叫做回流（reflow），同时这也是最昂贵的浏览器操作之一， 回流操作主要会发生在几种情况下："
 category:  javacript
 tags: ["javacript","DOM","DOM操作"]
