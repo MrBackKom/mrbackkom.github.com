@@ -13,14 +13,17 @@ tags: ["javacript","Reactjs","Reactjs对比规则"]
 在开始研究细节之前，让我们先来看看React是怎么书写的。看下面一段代码，用来创建一个组件，
 
 <pre class="prettyprint  lang-js linenums">
-        var MyComponent = React.createClass({
-               render: function() {
-                      if (this.props.first) {
-                         return <div className="first"><span>A Span</span></div>;
-                      } else {
-                         return <div className="second"><p>A Paragraph</p></div>;
-                      }
-        }});
+var MyComponent = React.createClass({
+    render: function() {
+       if (this.props.first) {
+          return &lt;div className="first"&gt;
+                     &lt;span&gt;A Span&lt;/span&gt;
+                  &lt;/div&gt;;
+        } else {
+          return &lt;div className="second"&gt;&lt;p&gt;A Paragraph&lt;/p&gt;&lt;/div&gt;;
+        }
+      }
+    });
 </pre>
 
 
@@ -53,7 +56,7 @@ tags: ["javacript","Reactjs","Reactjs对比规则"]
 
 默认情况下，React会把第一个链表的第一个组件和第二个链表的第一个组件关联起来，类似下面左边的图，你也可以提供一个key属性，来帮助React搭建这个映射关系。在实际中，通过这种方式在子节点中找到唯一的key也是非常方便的。
 
-http://7mnnrl.com1.z0.glb.clouddn.com/70b8cc915557675fd67b3a8d7653328a.png
+![](http://7mnnrl.com1.z0.glb.clouddn.com/70b8cc915557675fd67b3a8d7653328a.png)
 
 **组件**
 
