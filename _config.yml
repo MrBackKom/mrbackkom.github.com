@@ -5,8 +5,8 @@ paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 pygments: true
 
-title: MrBackKom的小屋
-description: MrBackKom的小屋
+title: MrBackKom's home
+description: MrBackKom's home
 author:
   name: MrBackKom
   email: zhaolong324@163.com
