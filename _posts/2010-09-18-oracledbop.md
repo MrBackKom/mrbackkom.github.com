@@ -8,7 +8,7 @@ tags: ["Oracle","Oracle中创建表","Oracle创建序列"]
 
 #
 
-<pre class="prettyprint lang-js linenum" >
+<pre class="prettyprint lang-js linenums" >
 // 创建一个序列
 CREATE SEQUENCE Car_GUID increment by 1;
 // 创建一个表

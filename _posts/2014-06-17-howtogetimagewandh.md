@@ -10,7 +10,7 @@ tags: ["javacript","图片宽高"]
 
 ###一、简陋的获取图片方式
 
-<pre class="prettyprint lang-js linenum" >
+<pre class="prettyprint lang-js linenums" >
 // 图片地址 后面加时间戳是为了避免缓存
 var img_url = 'http://www.qttc.net/static/upload/2013/13643608813441.jpg?'+Date.parse(new Date());
  
@@ -33,7 +33,7 @@ alert('width:'+img.width+',height:'+img.height);
 
 ###二、onload后在打印
 
-<pre class="prettyprint lang-js linenum" >
+<pre class="prettyprint lang-js linenums" >
 // 图片地址 后面加时间戳是为了避免缓存
 var img_url = 'http://www.qttc.net/static/upload/2013/13643608813441.jpg?'+Date.parse(new Date());
  
@@ -60,7 +60,7 @@ img.onload = function(){
 
 为了测试缓存效果，注意以下测试图片的url都不加时间戳
 
-<pre class="prettyprint lang-js linenum" >
+<pre class="prettyprint lang-js linenums" >
 // 图片地址
 var img_url = 'http://www.qttc.net/static/upload/2013/13643608813441.jpg';
  
@@ -97,7 +97,7 @@ if(img.complete){
 
 看看以下例子，为了避免从缓存里读取数据，每一次请求都带时间戳：
 
-<pre class="prettyprint lang-js linenum" >
+<pre class="prettyprint lang-js linenums" >
 // 图片地址
 var img_url = 'http://www.qttc.net/static/upload/2013/13643608813441.jpg?'+Date.parse(new Date());
  
@@ -137,7 +137,7 @@ Chrome
 
 通过以上测试，我们发现定时检测图片宽高的方式要比onload快多了，打印的行数越多表示onload时间越长，40毫秒执行一次，基本100毫秒内就能获取图片的宽高，chrome甚至在第一次循环的时候就已经获得数据。从以上数据来分析，其实我们可以在定时函数里判断只要图片的宽高都大于0就表示已经获得正确的图片宽高。我们把时间打上，来看看通过定时获取宽高或者onload获取宽高所需要多少时间。
 
-<pre class="prettyprint lang-js linenum" >
+<pre class="prettyprint lang-js linenums" >
 // 记录当前时间戳
 var start_time = new Date().getTime();
  
