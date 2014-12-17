@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "iterator.call(context,obj[i],i,obj)===breaker判断分析"
+title: "Underscore源码分析"
 description: "Underscore是一个非常实用的JavaScript库，提供许多编程时需要的功能的支持，他在不扩展任何JavaScript的原生对象的情况下提供很多实用的功能。创造一个小而美的公司非常值得尊敬，小而美的框架同样散发着那样的令人着迷的魅力。无论你写一段小的js代码，还是写一个大型的HTML5应用，underscore都能帮上忙。目前，underscore已经被广泛使用，例如，backbone.js唯一强依赖的库就是underscore.js,本文是对源码中if (iterator.call(context, obj[i], i, obj) === breaker)的判断语句分析"
 category: JS框架源码分析
 tags: [Underscorejs源码分析]
