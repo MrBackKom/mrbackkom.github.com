@@ -9,7 +9,7 @@ tags: [" .net控件相关","PDF","WinForm","WinForm显示pdf"]
 
 Steps to create the C# version
 
-<pre class="prettycode lang-js">
+<pre class="prettyprint lang-js">
 1. Create a windows form application by using VS
 2. Make the Acrobat control available in the toolbox of VS
 Tools->Add/Remove Toolbox Items: turn on "Adobe Acrobat 7.0 Browser Document" in COM Components tab. You will see it in the Toolbox's General tab.
